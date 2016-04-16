@@ -24,7 +24,11 @@
 
 
 	<div id="navigation"> 
-
+		<ul>
+			<li> Home</li>
+			<li>Contact</li>
+			<li>About</li>
+		</ul>
 
 	</div>
 	<!-- This is the overlay DIV that is displayed while loading a new page -->

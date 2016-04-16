@@ -84,6 +84,20 @@ body {
 	font-family: 'awesomeFont';
 }
 
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 
-
+li {
+	font-size: 30px;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 50px 40px;
+    text-decoration: none;
+}
 
