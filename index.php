@@ -24,10 +24,10 @@
 
 
 	<div id="navigation"> 
-		<ul>
-			<li> Home</li>
-			<li>Contact</li>
-			<li>About</li>
+		<ul id="textList">
+			<li> About</li>
+			<li> Contact </li>
+			<li> Home </li>
 		</ul>
 
 	</div>
@@ -35,128 +35,102 @@
 	<div id="loader"></div>
 
 	<div id="container1"> 
-			<span id="text"> Beiwen Liu </span>
-        </div>
-
+        <span id="text">Beiwen Liu </span>
+	</div>
 	<div class="container">
 
 		<!-- This is the main container (#scroll-container) -->
 		<div id="scroll-container" class="row">
 			<div class="content">
-				<div class="span12">
+				<div class="span4">
 					<div class="item">
 						<div class="img">
-							<iframe
-						src="http://www.youtube.com/embed/Hz9C-5Mnes0" frameborder="0"  id="testing" allowfullscreen>
+<!--
+						<iframe
+						src="http://www.youtube.com/embed/m3qJeg6Q26Q" frameborder="0"  class="testing" allowfullscreen>
 						</iframe>
+-->
 					</div>
-						<div class="caption">
-							<h4>Last updated: 4/16/2016</h4>
-						</div>
-					</div>	
-				</div>
-				<div class="span12">
-					<div class="item">
-						<div class="img"><iframe
-						src="http://www.youtube.com/embed/o2GDKg7HiWg" frameborder="0"  id="testing" allowfullscreen>
-						</iframe></div>
-						<div class="caption">
-							<h4>Lorem Ipsum 2</h4>
-							<p>dolore sit amen</p>
-						</div>
-					</div>	
-				</div>
-				<div class="span3">
-					<div class="item">
-						<div class="img"></div>
 						<div class="caption">
 							<h4>Lorem Ipsum 3</h4>
 							<p>dolore sit amen</p>
 						</div>
 					</div>	
 				</div>
-				<div class="span3">
+				<div class="span4">
 					<div class="item">
-						<div class="img"></div>
+						<div class="img">
+<!--
+							<iframe
+						src="http://www.youtube.com/embed/Hz9C-5Mnes0" frameborder="0"  class="testing" allowfullscreen>
+						</iframe>
+-->
+					</div>
+						<div class="caption">
+							<h4>Last updated: 4/16/2016</h4>
+						</div>
+					</div>	
+				</div>
+				<div class="span4">
+					<div class="item">
+						<div class="img">
+<!--
+                            <iframe
+						src="http://www.youtube.com/embed/o2GDKg7HiWg" frameborder="0"  class="testing" allowfullscreen>
+						</iframe>
+-->
+                        </div>
+						<div class="caption">
+							<h4>Lorem Ipsum 2</h4>
+							<p>dolore sit amen</p>
+						</div>
+					</div>	
+				</div>
+				<div class="span4">
+					<div class="item">
+						<div class="img">
+<!--
+						<iframe
+						src="http://www.youtube.com/embed/vezDCzGsAqM" frameborder="0"  class="testing" allowfullscreen>
+						</iframe>
+-->
+					</div>
+						<div class="caption">
+							<h4>Lorem Ipsum 3</h4>
+							<p>dolore sit amen</p>
+						</div>
+					</div>	
+				</div>
+				<div class="span4">
+					<div class="item">
+						<div class="img">
+<!--
+						<iframe
+						src="http://www.youtube.com/embed/-y5WtfsxsV0" frameborder="0"  class="testing" allowfullscreen>
+						</iframe>
+-->
+					</div>
 						<div class="caption">
 							<h4>Lorem Ipsum 4</h4>
 							<p>dolore sit amen</p>
 						</div>
 					</div>	
 				</div>
-				<div class="span3">
+				<div class="span4">
 					<div class="item">
-						<div class="img"></div>
+						<div class="img">
+<!--
+						<iframe
+						src="http://www.youtube.com/embed/huPUN13sA_U" frameborder="0"  class="testing" allowfullscreen>
+						</iframe>
+-->
+					</div>
 						<div class="caption">
 							<h4>Lorem Ipsum 5</h4>
 							<p>dolore sit amen</p>
 						</div>
 					</div>	
 				</div>
-				<div class="span3">
-					<div class="item">
-						<div class="img"></div>
-						<div class="caption">
-							<h4>Lorem Ipsum 6</h4>
-							<p>dolore sit amen</p>
-						</div>
-					</div>	
-				</div>
-				<div class="span3">
-					<div class="item">
-						<div class="img"></div>
-						<div class="caption">
-							<h4>Lorem Ipsum 7</h4>
-							<p>dolore sit amen</p>
-						</div>
-					</div>	
-				</div>
-				<div class="span3">
-					<div class="item">
-						<div class="img"></div>
-						<div class="caption">
-							<h4>Lorem Ipsum 8</h4>
-							<p>dolore sit amen</p>
-						</div>
-					</div>	
-				</div>
-				<div class="span3">
-					<div class="item">
-						<div class="img"></div>
-						<div class="caption">
-							<h4>Lorem Ipsum 9</h4>
-							<p>dolore sit amen</p>
-						</div>
-					</div>	
-				</div>
-				<div class="span3">
-					<div class="item">
-						<div class="img"></div>
-						<div class="caption">
-							<h4>Lorem Ipsum 10</h4>
-							<p>dolore sit amen</p>
-						</div>
-					</div>	
-				</div>
-				<div class="span3">
-					<div class="item">
-						<div class="img"></div>
-						<div class="caption">
-							<h4>Lorem Ipsum 11</h4>
-							<p>dolore sit amen</p>
-						</div>
-					</div>	
-				</div>
-				<div class="span3">
-					<div class="item">
-						<div class="img"></div>
-						<div class="caption">
-							<h4>Lorem Ipsum 12</h4>
-							<p>dolore sit amen</p>
-						</div>
-					</div>	
-				</div>
-			</div>
 		</div>
 	</div>
 
