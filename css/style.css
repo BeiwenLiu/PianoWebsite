@@ -100,7 +100,7 @@ body {
 	font-family: 'awesomeFont';
 }
 
-ul {
+#textList {
 	position:relative;
 	list-style-type: none;
     margin: 0;
@@ -108,15 +108,39 @@ ul {
     overflow: hidden;
 }
 
-li {
+#textList1 { 
+	float:left;
+	position:relative;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width:30%;
+    border:1px solid white;
+}
+
+#leftNav {
 	font-family: sans-serif;
 	font-size: 20px;
     float: right;
     display: block;
     color: white;
     text-align: center;
-    padding: 30px 40px;
+    padding: 25px 45%;
     text-decoration: none;
+}
+
+
+.rightNav {
+	font-family: sans-serif;
+	font-size: 20px;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 40px;
+    text-decoration: none;
+    border:1px solid white;
 }
 
 .title {
@@ -127,7 +151,10 @@ li {
     border-style: outset;
     border-radius:10px;
     padding: 10px;
+    font-size:25px;
+    font-family:'awesomeFont';
 }
+
 
 .sheetMP3left {
 	display:block;

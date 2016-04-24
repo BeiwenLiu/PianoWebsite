@@ -13,6 +13,7 @@
 	<!-- Included Bootstrap CSS Files -->
 	<link rel="stylesheet" href="./js/bootstrap/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="./js/bootstrap/css/bootstrap-responsive.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/i18n/jquery-ui-i18n.js"/>
 	
 	<!-- Css -->	
 	<link rel="stylesheet" href="./css/style.css" />
@@ -24,10 +25,13 @@
 
 
 	<div id="navigation"> 
+		<ul id="textList1">
+			<li id="leftNav"> Home </li>
+		</ul>
 		<ul id="textList">
-			<li> About</li>
-			<li> Contact </li>
-			<li> Home </li>
+			<li class="rightNav"> Other </li>
+			<li class="rightNav"> Hire Me </li>
+			<li class="rightNav"> About </li>
 		</ul>
 
 	</div>
@@ -56,7 +60,7 @@
                             <span class="sheetMP3right"> MP3 </span>
                         </div>
 						<div class="caption">
-							<h4>Lorem Ipsum 3</h4>
+							<h4>Last updated: 4/16/2016</h4>
 						</div>
 					</div>	
 				</div>
