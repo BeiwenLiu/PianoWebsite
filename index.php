@@ -52,23 +52,22 @@
                                 src="http://www.youtube.com/embed/m3qJeg6Q26Q" frameborder="0" class="testing" allowfullscreen>
                             </iframe>
 -->
-                            Sheets </br>
-                            Mp3
+                            <span class="sheetMP3left"> Sheets </span>
+                            <span class="sheetMP3right"> MP3 </span>
                         </div>
 						<div class="caption">
 							<h4>Lorem Ipsum 3</h4>
-							<p>dolore sit amen</p>
 						</div>
 					</div>	
 				</div>
 				<div class="span4">
 					<div class="item">
 						<div class="img">
-<!--
-							<iframe
-						src="http://www.youtube.com/embed/Hz9C-5Mnes0" frameborder="0"  class="testing" allowfullscreen>
-						</iframe>
--->
+						<span class="title"> Mulan - Reflection </span>
+							<!-- <iframe -->
+						<!-- src="http://www.youtube.com/embed/Hz9C-5Mnes0" frameborder="0"  class="testing" allowfullscreen> -->
+						<!-- </iframe> -->
+
 					</div>
 						<div class="caption">
 							<h4>Last updated: 4/16/2016</h4>
