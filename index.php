@@ -45,12 +45,16 @@
 				<div class="span4">
 					<div class="item">
 						<div class="img">
+                            <span class="title"> Melodies of Spring </span>
+						<img src="http://img.youtube.com/vi/m3qJeg6Q26Q/sddefault.jpg" class="testing">
 <!--
-						<iframe
-						src="http://www.youtube.com/embed/m3qJeg6Q26Q" frameborder="0"  class="testing" allowfullscreen>
-						</iframe>
+                            <iframe 
+                                src="http://www.youtube.com/embed/m3qJeg6Q26Q" frameborder="0" class="testing" allowfullscreen>
+                            </iframe>
 -->
-					</div>
+                            Sheets </br>
+                            Mp3
+                        </div>
 						<div class="caption">
 							<h4>Lorem Ipsum 3</h4>
 							<p>dolore sit amen</p>
