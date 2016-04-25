@@ -13,7 +13,7 @@
 	<!-- Included Bootstrap CSS Files -->
 	<link rel="stylesheet" href="./js/bootstrap/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="./js/bootstrap/css/bootstrap-responsive.min.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/i18n/jquery-ui-i18n.js"/>
+	<script src="./jqueryAnimation/jquery-ui.js"></script>
 	
 	<!-- Css -->	
 	<link rel="stylesheet" href="./css/style.css" />

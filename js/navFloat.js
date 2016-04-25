@@ -20,14 +20,20 @@ $(document).ready(function () {
   });
 
 
-  $('li').hover(function() {
-    $(this).css({"background-color":"white","color":"black"});
-  }, function() {
-    $(this).css({"background-color":"#1a1a1a","color":"white"});
-  });
+  // $('li').hover(function() {
+  //   $(this).css({"background-color":"white","color":"black"});
+  // }, function() {
+  //   $(this).css({"background-color":"#1a1a1a","color":"white"});
+  // });
 
+    $('li').hover(function() {
 
-  
+        $(this).animate({
+          backgroundColor: 'white',
+          color: 'black'
+        }, 1000);
+    });
+
 });
 
 
