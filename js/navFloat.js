@@ -20,20 +20,42 @@ $(document).ready(function () {
   });
 
 
-  // $('li').hover(function() {
-  //   $(this).css({"background-color":"white","color":"black"});
-  // }, function() {
-  //   $(this).css({"background-color":"#1a1a1a","color":"white"});
-  // });
+  $('li').hover(function() {
+    $(this).css({"background-color":"white","color":"black"});
+  }, function() {
+    $(this).css({"background-color":"#1a1a1a","color":"white"});
+  });
 
-    $('li').hover(function() {
+  $('.sheetMP3right').hover(function() {
+    $(this).css({"background-color":"#c0c0c0","color":"black"});
+  }, function() {
+    $(this).css({"background-color":"#1a1a1a","color":"white"});
+  });
 
-        $(this).animate({
-          backgroundColor: 'white',
-          color: 'black'
-        }, 1000);
-    });
+  $('.sheetMP3left').hover(function() {
+    $(this).css({"background-color":"#c0c0c0","color":"black"});
+  }, function() {
+    $(this).css({"background-color":"#1a1a1a","color":"white"});
+  });
+
+
+    // $('li').hover(function() {
+
+    //     $(this).animate({
+    //       backgroundColor: 'white',
+    //       color: 'black'
+    //     }, 1000);
+    // });
 
 });
+
+// $(function(){
+//   $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+
+//   // If you want to keep full screen on window resize
+//   $(window).resize(function(){
+//     $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+//   });
+// });
 
 

@@ -29,9 +29,11 @@
 			<li id="leftNav"> Home </li>
 		</ul>
 		<ul id="textList">
-			<li class="rightNav"> Other </li>
+			<li class="rightNav"> Contact </li>
 			<li class="rightNav"> Hire Me </li>
-			<li class="rightNav"> About </li>
+			<li class="rightNav"> MP3 </li>
+			<li class="rightNav"> Sheets </li>
+			<li class="rightNav"> Bio </li>
 		</ul>
 
 	</div>
@@ -46,25 +48,25 @@
 		<!-- This is the main container (#scroll-container) -->
 		<div id="scroll-container" class="row">
 			<div class="content">
-				<div class="span4">
+				<div class="span12">
 					<div class="item">
 						<div class="img">
                             <span class="title"> Melodies of Spring </span>
-						<img src="http://img.youtube.com/vi/m3qJeg6Q26Q/sddefault.jpg" class="testing">
-<!--
-                            <iframe 
+						<!-- <img src="http://img.youtube.com/vi/m3qJeg6Q26Q/sddefault.jpg" class="testing"> -->
+
+                            <iframe id="video"
                                 src="http://www.youtube.com/embed/m3qJeg6Q26Q" frameborder="0" class="testing" allowfullscreen>
                             </iframe>
--->
-                            <span class="sheetMP3left"> Sheets </span>
-                            <span class="sheetMP3right"> MP3 </span>
+
+                            <a href="music/KL_Melodies_of_Spring.pdf" download="Melodies of Spring"> <span class="sheetMP3left"> Sheets </span> </a>
+                            <a href="mp3/melodies.mp3"> <span class="sheetMP3right"> MP3 </span> </a>
                         </div>
 						<div class="caption">
 							<h4>Last updated: 4/16/2016</h4>
 						</div>
 					</div>	
 				</div>
-				<div class="span4">
+				<div class="span12">
 					<div class="item">
 						<div class="img">
 						<span class="title"> Mulan - Reflection </span>
@@ -78,7 +80,7 @@
 						</div>
 					</div>	
 				</div>
-				<div class="span4">
+				<div class="span12">
 					<div class="item">
 						<div class="img">
 <!--
@@ -93,7 +95,7 @@
 						</div>
 					</div>	
 				</div>
-				<div class="span4">
+				<div class="span12">
 					<div class="item">
 						<div class="img">
 <!--
@@ -108,7 +110,7 @@
 						</div>
 					</div>	
 				</div>
-				<div class="span4">
+				<div class="span12">
 					<div class="item">
 						<div class="img">
 <!--
@@ -123,7 +125,7 @@
 						</div>
 					</div>	
 				</div>
-				<div class="span4">
+				<div class="span12">
 					<div class="item">
 						<div class="img">
 <!--
