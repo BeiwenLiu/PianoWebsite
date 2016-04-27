@@ -21,21 +21,22 @@ $(document).ready(function () {
 
 
   $('li').hover(function() {
-    $(this).css({"background-color":"white","color":"black"});
+    var temp = document.getElementsByClassName('rightNav')[0].style.backgroundColor;
+    $(this).css({"background-color":"#27363B","color":"white"});
   }, function() {
-    $(this).css({"background-color":"#1a1a1a","color":"white"});
+    $(this).css({"background-color": "","color":"white"});
   });
 
   $('.sheetMP3right').hover(function() {
-    $(this).css({"background-color":"#c0c0c0","color":"black"});
+    $(this).css({"background-color":"white","color":"black"});
   }, function() {
-    $(this).css({"background-color":"#1a1a1a","color":"white"});
+    $(this).css({"background-color":"","color":"white"});
   });
 
   $('.sheetMP3left').hover(function() {
-    $(this).css({"background-color":"#c0c0c0","color":"black"});
+    $(this).css({"background-color":"white","color":"black"});
   }, function() {
-    $(this).css({"background-color":"#1a1a1a","color":"white"});
+    $(this).css({"background-color":"","color":"white"});
   });
 
 

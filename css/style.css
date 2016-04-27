@@ -1,7 +1,10 @@
 body {
 	padding-bottom: 40px;
     padding-top: 60px;
-    background-color:#1a1a1a;
+    background: -webkit-linear-gradient(left, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B);
 }
 
 @font-face {
@@ -18,16 +21,15 @@ body {
 	height: 755px;
 	/*border-top: 2px solid #FFF056;
 	border-bottom: 2px solid #FFF056;*/
-	border-width:1px;
+	border-width:2px;
 	border-radius: 20px;	
     border-style:solid;
-    border-color: black;
+    border-color: white;
     text-align: center;
     color:white;
     font-family: 'awesomeFont';
     font-size: 20px;
     padding:5px;
-    background-color: #c0c0c0;
 }
 
 #loader {
@@ -55,7 +57,10 @@ body {
 	position: fixed;
 	width: 100%;
 	height: 70px;
-	background-color:#1a1a1a;
+	background: -webkit-linear-gradient(left, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B);
 	top: 0;
 	left:0;
 	right:0;
@@ -77,8 +82,7 @@ body {
 }
 
 #container1 {
-    background-color:#c0c0c0; 
-    background-image:url('/images/piano.jpg');
+    /*background-image:url('/images/piano.jpg');*/
     background-repeat: no-repeat;
     background-position:center;
     background-size:center;
@@ -87,6 +91,9 @@ body {
 	color:white;
 	text-align: center;
 	vertical-align: middle;
+
+	background-image: linear-gradient(to right, #27363B, black , #27363B), url('/images/piano.jpg');
+	background-blend-mode: screen;
 }
 
 #text {
@@ -144,10 +151,10 @@ body {
 }
 
 .title {
-	background-color:#1a1a1a;
+	background-color:#27363B;
     display:block;
     height:30px;
-    border:10px solid #1a1a1a;
+    border:10px solid #27363B;
     border-style: outset;
     border-radius:10px;
     padding: 10px;
@@ -157,8 +164,9 @@ body {
 
 
 .sheetMP3left {
+	color:white;
 	display:block;
-	background-color:#1a1a1a;
+	background-color:#27363B;
 	float:left;
 	margin-top:4px;
 	margin-left:.5%;
@@ -169,8 +177,9 @@ body {
 }
 
 .sheetMP3right {
+	color:white;
 	display:block;
-	background-color:#1a1a1a;
+	background-color:#27363B;
 	float:right;
 	margin-top:4px;
 	margin-right:.5%;
