@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./js/bootstrap/css/bootstrap.min.css" />
     <!-- Css -->    
     <link rel="stylesheet" href="./css/style.css" />
+   <script src="https://apis.google.com/js/platform.js"></script>
+
 
     <script src="/js/navFloat.js"></script>
 </head>
@@ -41,16 +43,19 @@
         <span id="text">Beiwen Liu </span>
     </div>
     <div id="nextDiv">
-        <ul id="menu">
-            <li class="menuList"><img src="images/Youtube.png">images/</li>
-            <li class="menuList">whats up</li>
+        <img id="youtube" src="images/Youtube.png">
+            <video class="video" autoplay loop>
+            <source src="https://s3-us-west-1.amazonaws.com/beiwen-music123/Melodies.mp4" type="video/mp4">
+        </video>
+    </ul>
 
-        </ul>
+    <div class="g-ytsubscribe" data-channelid="UCeimRJXO3bu3NeiPXOqbg_Q" data-layout="full" data-count="default" data-onytevent="onYtEvent"></div>
+         
     </div>
+
 
     <!-- These are all the links that can be loaded. -->
 </body>
     <div id="footer">
-        hey
     </div>
 </html>

@@ -46,6 +46,13 @@ $(document).ready(function () {
     $(this).css({"background-color":"","color":"white"});
   });
 
+  $('#youtube').hover(function() {
+    var temp = document.getElementsByClassName('rightNav')[0].style.backgroundColor;
+    $(this).css({"background-color": "gray","color":"black"});
+  }, function() {
+    $(this).css({"background-color": "","color":"white"});
+  });
+
 
     // $('li').hover(function() {
 

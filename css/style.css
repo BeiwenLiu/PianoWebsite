@@ -104,11 +104,23 @@ body {
 }
 
 #nextDiv {
-	height:200px;
+	height:1000px;
 	width:100%;
 	background: linear-gradient(black, #101010 , black);
-	text-align: center;
-	vertical-align: middle;
+}
+
+
+#youtube {
+	float:left;
+	max-width:250px;
+	max-height:250px;
+}
+
+.video {
+	float:center;
+	max-height:500px;
+	max-width:500px;
+	padding: 5px;
 }
 
 #menu .menuList {
@@ -117,7 +129,7 @@ body {
 
 #footer {
 	color:white;
-	height:100px;
+	height:2000px;
 }
 
 #text {
@@ -185,31 +197,3 @@ body {
     font-size:25px;
     font-family:'awesomeFont';
 }
-
-
-.sheetMP3left {
-	color:white;
-	display:block;
-	background-color:#252839 ;
-	float:left;
-	margin-top:4px;
-	margin-left:.5%;
-	margin-bottom:10%;
-	border-radius: 20px;
-	padding:7px;
-	width:43%;
-}
-
-.sheetMP3right {
-	color:white;
-	display:block;
-	background-color:#252839 ;
-	float:right;
-	margin-top:4px;
-	margin-right:.5%;
-	margin-bottom: 10%;
-	border-radius: 20px;
-	padding:7px;
-	width:43%;
-}
-
