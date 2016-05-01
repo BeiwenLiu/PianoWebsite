@@ -20,9 +20,16 @@ $(document).ready(function () {
   });
 
 
-  $('li').hover(function() {
+  $('.rightNav').hover(function() {
     var temp = document.getElementsByClassName('rightNav')[0].style.backgroundColor;
-    $(this).css({"background-color":"#27363B","color":"white"});
+    $(this).css({"background-color": "white","color":"black"});
+  }, function() {
+    $(this).css({"background-color": "","color":"white"});
+  });
+
+  $('#leftNav').hover(function() {
+    var temp = document.getElementsByClassName('rightNav')[0].style.backgroundColor;
+    $(this).css({"background-color": "white","color":"black"});
   }, function() {
     $(this).css({"background-color": "","color":"white"});
   });

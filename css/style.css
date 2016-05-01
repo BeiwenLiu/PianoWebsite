@@ -1,10 +1,10 @@
 body {
-	padding-bottom: 40px;
+	padding-bottom: 20px;
     padding-top: 60px;
-    background: -webkit-linear-gradient(left, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to right, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B);
+    /*background: -webkit-linear-gradient(left, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B); /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(right, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B); /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(right, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B); /* For Firefox 3.6 to 15 */
+	background-color: black;
 }
 
 @font-face {
@@ -57,10 +57,10 @@ body {
 	position: fixed;
 	width: 100%;
 	height: 70px;
-	background: -webkit-linear-gradient(left, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to right, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B);
+	/*background: -webkit-linear-gradient(left, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B); /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(right, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B); /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(right, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, #202020);
 	top: 0;
 	left:0;
 	right:0;
@@ -83,17 +83,41 @@ body {
 
 #container1 {
     /*background-image:url('/images/piano.jpg');*/
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size:center;
-    height: 500px;
+    height: 640px;
     margin-bottom:20px;
 	color:white;
 	text-align: center;
 	vertical-align: middle;
+}
 
-	background-image: linear-gradient(to right, #27363B, black , #27363B), url('/images/piano.jpg');
-	background-blend-mode: screen;
+
+#image {
+  height:100%;
+  background-repeat: no-repeat;
+   background-position:center;
+   background-size:center;
+  background-image: radial-gradient(#303030, black), url('/images/piano.jpg');
+  background-blend-mode: screen;
+   opacity:.6;
+  border-bottom: 1px groove white;
+  width:100%;
+}
+
+#nextDiv {
+	height:200px;
+	width:100%;
+	background: linear-gradient(black, #101010 , black);
+	text-align: center;
+	vertical-align: middle;
+}
+
+#menu .menuList {
+	display:inline;
+}
+
+#footer {
+	color:white;
+	height:100px;
 }
 
 #text {
@@ -102,7 +126,7 @@ body {
 	position:absolute;
     left: 100px;
     right: 100px;
-    top:470px;
+    top:460px;
 	color:white;
 	font-family: 'awesomeFont';
 }
@@ -151,10 +175,10 @@ body {
 }
 
 .title {
-	background-color:#27363B;
+	background-color:#252839 ;
     display:block;
     height:30px;
-    border:10px solid #27363B;
+    border:10px solid #252839 ;
     border-style: outset;
     border-radius:10px;
     padding: 10px;
@@ -166,7 +190,7 @@ body {
 .sheetMP3left {
 	color:white;
 	display:block;
-	background-color:#27363B;
+	background-color:#252839 ;
 	float:left;
 	margin-top:4px;
 	margin-left:.5%;
@@ -179,7 +203,7 @@ body {
 .sheetMP3right {
 	color:white;
 	display:block;
-	background-color:#27363B;
+	background-color:#252839 ;
 	float:right;
 	margin-top:4px;
 	margin-right:.5%;
@@ -188,3 +212,4 @@ body {
 	padding:7px;
 	width:43%;
 }
+

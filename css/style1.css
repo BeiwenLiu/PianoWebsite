@@ -1,0 +1,80 @@
+
+/*********************
+  NAVIGATION
+**********************/
+
+.top-nav-collapse {
+  background-color: #000f0f;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #000f0f;
+  }
+}
+/*********************
+  FOOTER
+**********************/
+footer.page-footer {
+  margin-top: 0;
+  background-color: #000f0f;
+}
+
+html,
+body,
+main {
+  height: 100%;
+}
+
+.carousel,
+.item,
+.active {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+
+.carousel-bg .item video {
+  opacity: 0.4;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+    background-color: black;
+}
+
+#linktovid {
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom:10px;
+}
+
+
+#container1 {
+    /*background-image:url('/images/piano.jpg');*/
+    height: 750px;
+    margin-bottom:20px;
+  color:white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+#image {
+  height:100%;
+  background-repeat: no-repeat;
+   background-position:center;
+   background-size:center;
+  background-image: radial-gradient(#202020 , black), url('/images/piano.jpg');
+  background-blend-mode: screen;
+   opacity:.6;
+  border-bottom: 1px groove white;
+  width:100%;
+}
