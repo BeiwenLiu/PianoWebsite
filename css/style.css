@@ -9,7 +9,7 @@ body {
 
 @font-face {
 	font-family: 'awesomeFont';
-	src: url('../fonts/Font.tff') format('truetype');
+	src: url('../fonts/Font.tff');
 }
 
 #pages {
@@ -60,7 +60,7 @@ body {
 	/*background: -webkit-linear-gradient(left, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B); /* For Safari 5.1 to 6.0 */
     /*background: -o-linear-gradient(right, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B); /* For Opera 11.1 to 12.0 */
     /*background: -moz-linear-gradient(right, #27363B, #FDCEAA , #F4837D, #EB4960 , #27363B); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(black, #202020);
+    background: linear-gradient(black, #303030);
 	top: 0;
 	left:0;
 	right:0;
@@ -96,7 +96,7 @@ body {
   background-repeat: no-repeat;
    background-position:center;
    background-size:center;
-  background-image: radial-gradient(#303030, black), url('/images/piano.jpg');
+  background-image: radial-gradient(#686868 , black), url('/images/piano.jpg');
   background-blend-mode: screen;
    opacity:.6;
   border-bottom: 1px groove white;
@@ -106,7 +106,7 @@ body {
 #nextDiv {
 	height:1000px;
 	width:100%;
-	background: linear-gradient(black, #101010 , black);
+	background: linear-gradient(black, #303030,black);
 }
 
 
@@ -133,14 +133,14 @@ body {
 }
 
 #text {
-    font-size:100px;
+    font-size:120px;
 	z-index:100;
 	position:absolute;
     left: 100px;
     right: 100px;
     top:460px;
 	color:white;
-	font-family: 'awesomeFont';
+	font-family:Century Gothic, sans-serif;
 }
 
 #textList {
@@ -163,7 +163,7 @@ body {
 }
 
 #leftNav {
-	font-family: sans-serif;
+	font-family: Century Gothic, sans-serif;
 	font-size: 20px;
     float: right;
     display: block;
@@ -175,7 +175,7 @@ body {
 
 
 .rightNav {
-	font-family: sans-serif;
+	font-family: Century Gothic, sans-serif;
 	font-size: 20px;
     float: right;
     display: block;
